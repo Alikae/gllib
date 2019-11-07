@@ -1,0 +1,22 @@
+{
+	"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "blocks/planks_big_oak",
+		"texture": "blocks/planks_big_oak"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "top bar*",
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 6.001, 6.000999, 9.999, 9.999 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 6.001, 6.000999, 9.999, 9.999 ], "texture": "#texture", "cullface": "up" },
+				"north": { "uv": [ 6.001, 0.001000404, 9.999, 15.999 ], "texture": "#texture", "cullface": "north" },
+				"south": { "uv": [ 6.001, 0.001000404, 9.999, 15.999 ], "texture": "#texture" },
+				"west": { "uv": [ 6.001, 0.001000404, 9.999, 15.999 ], "texture": "#texture" },
+				"east": { "uv": [ 6.001, 0.001000404, 9.999, 15.999 ], "texture": "#texture" }
+			}
+		}
+	]
+}

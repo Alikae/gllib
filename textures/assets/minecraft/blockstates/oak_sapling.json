@@ -1,0 +1,8 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "variants": {
+
+           "stage=0": { "model": "saplings/sapling_oak_stage1", "weight": 1  },
+           "stage=1": { "model": "saplings/sapling_oak_stage2", "weight": 1  }
+    }
+}

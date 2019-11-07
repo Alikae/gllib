@@ -1,0 +1,43 @@
+{
+	"__comment": "Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "blocks/leaves_oak",
+		"leaves": "blocks/leaves_oak",
+		"better_leaves": "shadow/better_leaves_oak"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "N-S",
+			"from": [ -2, -8, -2 ],
+			"to": [ -1.999, 20.5, 26.5 ],
+			"rotation": { "origin": [ -2, -8, -2 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#better_leaves", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#better_leaves", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "S-O",
+			"from": [ -2.0005, -8, 17.9995 ],
+			"to": [ 26.4995, 20.5, 18.0005 ],
+			"rotation": { "origin": [ -2, -8, 18 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#better_leaves", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#better_leaves", "tintindex": 0 }
+			}
+		}
+	]
+}

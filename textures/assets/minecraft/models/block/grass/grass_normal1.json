@@ -1,0 +1,60 @@
+{
+	"__comment": "Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "blocks/grass_side",
+		"grass_top": "blocks/grass_top",
+		"grass_side_overlay": "blocks/grass_side_overlay",
+		"dirt": "blocks/dirt"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "grass_west",
+			"from": [ -0.0001, -16, 0 ],
+			"to": [ 0.0008999999, 0, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "west", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "west", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "grass_east",
+			"from": [ 16.0001, -16, 0 ],
+			"to": [ 16.0011, 0, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "east", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "east", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "grass_north",
+			"from": [ 0, -16, -0.09999999 ],
+			"to": [ 16, 0, -0.099 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "north", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "north", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "grass_south",
+			"from": [ 0, -16, 16.0001 ],
+			"to": [ 16, 0, 16.0011 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "south", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "south", "tintindex": 0 }
+			}
+		},
+		{
+			"__comment": "core",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "up", "tintindex": 0 },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "north", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "south", "tintindex": 0 },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "west", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "east", "tintindex": 0 }
+			}
+		}
+	]
+}

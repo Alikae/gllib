@@ -1,0 +1,12 @@
+Sandsteinstufe gestabelt --> Sandsteinseule
+
+Bruchsteinstufen gestabelt --> Steinseule //comming soon
+
+Ziegelstufen gestabelt --> ? //comming soon
+
+Erdstufe --> /give @p stone_slab 1 2
+
+
+
+
+

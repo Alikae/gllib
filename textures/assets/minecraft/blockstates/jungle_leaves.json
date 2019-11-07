@@ -1,0 +1,21 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+	    "particle": "blocks/leaves_jungle",
+    "all": "blocks/leaves_jungle",
+    "extra": "recources/better_leaves_jungle"
+	},
+    "variants": {
+        "normal": [
+		{ "model": "leaves_jungle/better_leaves_jungle1" },
+		{ "model": "leaves_jungle/better_leaves_jungle1", "y": 90  },
+		{ "model": "leaves_jungle/better_leaves_jungle1", "y": 180 },
+		{ "model": "leaves_jungle/better_leaves_jungle1", "y": 270 },
+		
+		{ "model": "leaves_jungle/better_leaves_jungle2" },
+		{ "model": "leaves_jungle/better_leaves_jungle2", "y": 90  },
+		{ "model": "leaves_jungle/better_leaves_jungle2", "y": 180 },
+		{ "model": "leaves_jungle/better_leaves_jungle2", "y": 270 }
+				]
+		}
+}

@@ -1,0 +1,9 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "shadow/sandstone_pillar",
+        "top": "shadow/sandstone_pillar",
+        "side": "shadow/sandstone_pillar_side"
+    }
+}

@@ -1,0 +1,659 @@
+{
+	"__comment": "Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "shadow/leaves_oak_tint",
+		"log_oak": "blocks/log_oak",
+		"leaves_oka": "shadow/leaves_oak_tint",
+		"dirt": "blocks/dirt"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "log_main",
+			"from": [ 5, 0, 5 ],
+			"to": [ 11, 24.5, 11 ],
+			"faces": {
+				"down": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_oak", "cullface": "up" },
+				"north": { "uv": [ 5, 0, 11, 16 ], "texture": "#log_oak", "cullface": "up" },
+				"south": { "uv": [ 5, 0, 11, 16 ], "texture": "#log_oak", "cullface": "up" },
+				"west": { "uv": [ 5, 0, 11, 16 ], "texture": "#log_oak", "cullface": "up" },
+				"east": { "uv": [ 5, 0, 11, 16 ], "texture": "#log_oak", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "log_east_1",
+			"from": [ 11, 10, 7 ],
+			"to": [ 17, 12, 9 ],
+			"rotation": { "origin": [ 11, 10, 7 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 11, 7, 13, 9 ], "texture": "#log_oak", "cullface": "east" },
+				"up": { "uv": [ 11, 7, 13, 9 ], "texture": "#log_oak", "cullface": "east" },
+				"north": { "uv": [ 3, 1, 5, 3 ], "texture": "#log_oak", "cullface": "east" },
+				"south": { "uv": [ 11, 1, 13, 3 ], "texture": "#log_oak", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "leaves_core",
+			"from": [ 1, 17, 1 ],
+			"to": [ 15, 31, 15 ],
+			"faces": {
+				"down": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" },
+				"up": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" },
+				"north": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" },
+				"south": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" },
+				"west": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" },
+				"east": { "uv": [ 1, 1, 15, 15 ], "texture": "#leaves_oka", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "leaves_core_west",
+			"from": [ 0, 18, 2 ],
+			"to": [ 1, 30, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"up": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"north": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"south": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"west": { "uv": [ 2, 2, 14, 14 ], "texture": "#leaves_oka", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "leaves_core_south",
+			"from": [ 1, 18, 15 ],
+			"to": [ 15, 30, 16 ],
+			"faces": {
+				"down": { "uv": [ 1, 0, 15, 1 ], "texture": "#leaves_oka", "cullface": "up" },
+				"up": { "uv": [ 1, 15, 15, 16 ], "texture": "#leaves_oka", "cullface": "up" },
+				"south": { "uv": [ 1, 2, 15, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"west": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"east": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "leaves_core_east",
+			"from": [ 15, 18, 2 ],
+			"to": [ 16, 30, 14 ],
+			"faces": {
+				"down": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"up": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"north": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"south": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"east": { "uv": [ 2, 2, 14, 14 ], "texture": "#leaves_oka", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "leaves_core_north",
+			"from": [ 1, 18, 0 ],
+			"to": [ 15, 30, 1 ],
+			"faces": {
+				"down": { "uv": [ 1, 15, 15, 16 ], "texture": "#leaves_oka", "cullface": "up" },
+				"up": { "uv": [ 1, 0, 15, 1 ], "texture": "#leaves_oka", "cullface": "up" },
+				"north": { "uv": [ 1, 2, 15, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"west": { "uv": [ 0, 2, 1, 14 ], "texture": "#leaves_oka", "cullface": "up" },
+				"east": { "uv": [ 15, 2, 16, 14 ], "texture": "#leaves_oka", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "Box50",
+			"from": [ 15.5, 11.5, 5.5 ],
+			"to": [ 20.5, 15.5, 10.5 ],
+			"faces": {
+				"down": { "uv": [ 9, 6, 13, 10 ], "texture": "#leaves_oka", "cullface": "east" },
+				"up": { "uv": [ 9.5, 6, 13.5, 10 ], "texture": "#leaves_oka", "cullface": "east" },
+				"north": { "uv": [ 6.5, 6.5, 10.5, 10 ], "texture": "#leaves_oka", "cullface": "east" },
+				"south": { "uv": [ 6.5, 6.5, 10.5, 10 ], "texture": "#leaves_oka", "cullface": "east" },
+				"west": { "uv": [ 8, 5, 12, 8.5 ], "texture": "#leaves_oka", "cullface": "east" },
+				"east": { "uv": [ 5, 7, 9, 10.5 ], "texture": "#leaves_oka", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-",
+			"from": [ 1.5, 0, 2.5 ],
+			"to": [ 4.5, 0.5, 4 ],
+			"faces": {
+				"down": { "uv": [ 0, 11.75, 1.5, 12.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 0, 11.75, 1.5, 11 ], "texture": "#log_oak" },
+				"north": { "uv": [ 6.5, 8, 5, 8.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 8.25, 6.5, 8.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 15, 10, 15.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 10.75, 15, 10, 15.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-1",
+			"from": [ 1.5, 0, 9.5 ],
+			"to": [ 5, 0.5, 11 ],
+			"faces": {
+				"down": { "uv": [ 0, 15.25, 1.75, 16 ], "texture": "#log_oak" },
+				"up": { "uv": [ 0, 15.25, 1.75, 14.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 6.75, 10.5, 5, 10.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 10.75, 6.75, 11 ], "texture": "#log_oak" },
+				"west": { "uv": [ 10.75, 15, 11.5, 15.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-2",
+			"from": [ 2, 0, 1.5 ],
+			"to": [ 3.5, 0.5, 2.5 ],
+			"faces": {
+				"down": { "uv": [ 3.75, 11.5, 4.5, 12 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3.75, 11.5, 4.5, 11 ], "texture": "#log_oak" },
+				"north": { "uv": [ 13, 15, 12.25, 15.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 4.5, 9, 5, 9.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 5, 9.25, 4.5, 9.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-3",
+			"from": [ 2, 0, 4 ],
+			"to": [ 6, 0.5, 4.5 ],
+			"faces": {
+				"down": { "uv": [ 5, 13.75, 7, 14 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 12, 7, 11.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7, 13.5, 5, 13.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 13.25, 7, 13.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 12.25, 9.5, 12.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 15.75, 15.25, 15.5, 15.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-4",
+			"from": [ 2, 0.5, 2.5 ],
+			"to": [ 4.5, 1, 4 ],
+			"faces": {
+				"up": { "uv": [ 1.75, 13.5, 3, 12.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 3, 8, 1.75, 8.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 14.75, 15.75, 16, 16 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 14.75, 10, 15 ], "texture": "#log_oak" },
+				"east": { "uv": [ 10.75, 14.75, 10, 15 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-5",
+			"from": [ 2.5, 0, 9 ],
+			"to": [ 5, 0.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 10, 15.5, 11.25, 15.75 ], "texture": "#log_oak" },
+				"up": { "uv": [ 11.25, 15.75, 12.5, 15.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 1.25, 8, 0, 8.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 8.5, 9.5, 8.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-6",
+			"from": [ 2.5, 0, 11 ],
+			"to": [ 4, 0.5, 11.5 ],
+			"faces": {
+				"down": { "uv": [ 10.75, 14.75, 11.5, 15 ], "texture": "#log_oak" },
+				"up": { "uv": [ 11.5, 15, 12.25, 14.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 13, 14.75, 13.75, 15 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.25, 8.25, 8.5, 8.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.5, 9, 8.25, 9.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-7",
+			"from": [ 2.5, 0.5, 4 ],
+			"to": [ 6, 1, 4.5 ],
+			"faces": {
+				"up": { "uv": [ 5, 9.5, 6.75, 9.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 6.75, 9, 5, 9.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 8.75, 6.75, 9 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.25, 10, 8.5, 10.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.5, 10.25, 8.25, 10.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-8",
+			"from": [ 2.5, 0.5, 9.5 ],
+			"to": [ 5, 1, 11 ],
+			"faces": {
+				"up": { "uv": [ 1.75, 12.75, 3, 12 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 11.5, 7.25, 11.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 12.25, 8.5, 12.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 13.75, 14.75, 14.5, 15 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-9",
+			"from": [ 3, 0, 4.5 ],
+			"to": [ 6.5, 1, 5 ],
+			"faces": {
+				"down": { "uv": [ 5, 11, 6.75, 11.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 10, 6.75, 9.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 3.5, 10.75, 1.75, 11.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 1.75, 10.25, 3.5, 10.75 ], "texture": "#log_oak" },
+				"west": { "uv": [ 3.5, 10.25, 3.75, 10.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 3.75, 10.75, 3.5, 11.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-10",
+			"from": [ 3, 0.5, 9 ],
+			"to": [ 5, 1, 9.5 ],
+			"faces": {
+				"up": { "uv": [ 7.25, 10, 8.25, 9.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.25, 10, 7.25, 10.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 7, 11.5, 7.25, 11.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-11",
+			"from": [ 3, 1, 3 ],
+			"to": [ 4.5, 1.5, 4.5 ],
+			"faces": {
+				"down": { "uv": [ 1, 10.25, 1.75, 11 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3, 14.25, 3.75, 13.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 1.75, 10, 1, 10.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 15.25, 14.75, 16, 15 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.5, 14.5, 9.25, 14.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.25, 14.25, 8.5, 14.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-12",
+			"from": [ 3.5, 0, 8.5 ],
+			"to": [ 5, 1, 9 ],
+			"faces": {
+				"down": { "uv": [ 8.5, 14, 9.25, 14.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 8.5, 14, 9.25, 13.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7.25, 8, 6.5, 8.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 3.75, 8, 4.5, 8.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 13.25, 9.5, 13.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-13",
+			"from": [ 3.5, 1, 9 ],
+			"to": [ 6, 1.5, 10.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 8.25, 1.25, 9 ], "texture": "#log_oak" },
+				"up": { "uv": [ 1.75, 12, 3, 11.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 14.5, 7.25, 14.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 14.75, 8.5, 15 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.5, 13.5, 9.25, 13.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-14",
+			"from": [ 4, 0.5, 5 ],
+			"to": [ 6.5, 1.5, 6 ],
+			"faces": {
+				"down": { "uv": [ 3.75, 12, 5, 12.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3.75, 16, 5, 15.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 5, 13.5, 3.75, 14 ], "texture": "#log_oak" },
+				"south": { "uv": [ 3.75, 15, 5, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 3.25, 9.75, 3.75, 10.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-15",
+			"from": [ 4, 1, 4.5 ],
+			"to": [ 6.5, 1.5, 5 ],
+			"faces": {
+				"up": { "uv": [ 7.25, 14.5, 8.5, 14.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 14, 7.25, 14.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 9.25, 9.5, 9.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.5, 9.5, 8.25, 9.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-16",
+			"from": [ 4.5, 0, 3 ],
+			"to": [ 5.5, 1, 4 ],
+			"faces": {
+				"down": { "uv": [ 1.25, 14, 1.75, 14.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 1.25, 14, 1.75, 13.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 1.75, 13, 1.25, 13.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 1.25, 12.5, 1.75, 13 ], "texture": "#log_oak" },
+				"west": { "uv": [ 1.25, 8.5, 1.75, 9 ], "texture": "#log_oak" },
+				"east": { "uv": [ 1.75, 8, 1.25, 8.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-17",
+			"from": [ 4.5, 0.5, 6 ],
+			"to": [ 6, 1.5, 6.5 ],
+			"faces": {
+				"down": { "uv": [ 8.5, 13, 9.25, 13.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 8.5, 13, 9.25, 12.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 3.75, 10.5, 4.5, 11 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.5, 9.75, 8.75, 10.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-18",
+			"from": [ 4.5, 1, 3.5 ],
+			"to": [ 5.5, 1.5, 4.5 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 11, 5, 11.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 4.5, 11, 5, 10.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7.25, 11, 6.75, 11.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 11.25, 6.75, 11.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-19",
+			"from": [ 4.5, 1.5, 4.5 ],
+			"to": [ 6, 2, 6 ],
+			"faces": {
+				"down": { "uv": [ 3, 14.25, 3.75, 15 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3, 13.5, 3.75, 12.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 9.25, 12.5, 8.5, 12.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 8.5, 12.25, 9.25, 12.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.5, 12, 9.25, 12.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.25, 11.75, 8.5, 12 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-20",
+			"from": [ 5.5, 0, 3.5 ],
+			"to": [ 6, 1, 4 ],
+			"faces": {
+				"down": { "uv": [ 9.25, 11.75, 9.5, 12 ], "texture": "#log_oak" },
+				"up": { "uv": [ 9.25, 12.25, 9.5, 12 ], "texture": "#log_oak" },
+				"north": { "uv": [ 9, 8.25, 8.75, 8.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 8.75, 8.75, 9, 9.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.25, 8.75, 9, 9.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-21",
+			"from": [ 5.5, 1, 4 ],
+			"to": [ 6, 1.5, 4.5 ],
+			"faces": {
+				"up": { "uv": [ 7, 12.5, 7.25, 12.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7.25, 13.5, 7, 13.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 11, 9.25, 11.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-22",
+			"from": [ 6, 0, 11 ],
+			"to": [ 8.5, 1, 11.5 ],
+			"faces": {
+				"down": { "uv": [ 7.25, 15.25, 8.5, 15.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 7.25, 15.25, 8.5, 15 ], "texture": "#log_oak" },
+				"south": { "uv": [ 1.75, 8.75, 3, 9.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 8.75, 10.25, 9, 10.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.75, 10.25, 8.5, 10.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-23",
+			"from": [ 6, 0, 11.5 ],
+			"to": [ 8.5, 0.5, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 12.5, 1.25, 13.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 0, 14.5, 1.25, 13.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 11, 8.5, 11.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 7.25, 9.25, 8.25, 9.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.25, 9, 7.25, 9.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-24",
+			"from": [ 6.5, 0, 13.5 ],
+			"to": [ 9, 0.5, 14.5 ],
+			"faces": {
+				"down": { "uv": [ 3.75, 12.5, 5, 13 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3.75, 13.5, 5, 13 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 12.5, 7.25, 12.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 11.25, 8.5, 11.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 6.75, 9.25, 7.25, 9.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 9, 6.75, 9.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-25",
+			"from": [ 6.5, 0.5, 11.5 ],
+			"to": [ 8.5, 1, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 0, 11, 1, 10 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 10.5, 8.25, 10.75 ], "texture": "#log_oak" },
+				"west": { "uv": [ 7.25, 10.75, 8.25, 11 ], "texture": "#log_oak" },
+				"east": { "uv": [ 16, 15.5, 15, 15.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-26",
+			"from": [ 6.5, 1, 11 ],
+			"to": [ 8, 1.5, 11.5 ],
+			"faces": {
+				"up": { "uv": [ 3, 11.5, 3.75, 11.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 9.5, 15.25, 10.25, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 10.25, 9.5, 10.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 10, 9.25, 10.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-27",
+			"from": [ 7, 0, 14.5 ],
+			"to": [ 8.5, 0.5, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 3, 8.75, 3.75, 9.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 3, 12, 3.75, 11.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 11, 15.25, 11.75, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 4.5, 8.75, 5, 9 ], "texture": "#log_oak" },
+				"east": { "uv": [ 5, 8, 4.5, 8.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-28",
+			"from": [ 7, 0.5, 13.5 ],
+			"to": [ 8.5, 1, 14.5 ],
+			"faces": {
+				"up": { "uv": [ 3.75, 10.5, 4.5, 10 ], "texture": "#log_oak" },
+				"south": { "uv": [ 12.5, 15.25, 13.25, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 6.75, 10.75, 7.25, 11 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 10.5, 6.75, 10.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-29",
+			"from": [ 7, 1, 12 ],
+			"to": [ 8.5, 1.5, 13.5 ],
+			"faces": {
+				"up": { "uv": [ 3, 12.75, 3.75, 12 ], "texture": "#log_oak" },
+				"north": { "uv": [ 14, 15.25, 13.25, 15.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 14, 15.25, 14.75, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 14.75, 15.25, 15.5, 15.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.25, 15, 8.5, 15.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-30",
+			"from": [ 8.5, 0, 12 ],
+			"to": [ 9, 1, 13.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 11.75, 1.75, 12.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 1.5, 11.75, 1.75, 11 ], "texture": "#log_oak" },
+				"north": { "uv": [ 9.25, 8.25, 9, 8.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 9.25, 14.25, 9.5, 14.75 ], "texture": "#log_oak" },
+				"west": { "uv": [ 3, 8.25, 3.75, 8.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 4.5, 8.5, 3.75, 9 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-31",
+			"from": [ 9.5, 0.5, 5.5 ],
+			"to": [ 14, 1, 6 ],
+			"faces": {
+				"down": { "uv": [ 5, 15, 7.25, 15.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 14.75, 7.25, 14.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7.25, 15.25, 5, 15.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 15.5, 7.25, 15.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.5, 10.5, 8.25, 10.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-32",
+			"from": [ 9.5, 0.5, 6 ],
+			"to": [ 13, 1, 6.5 ],
+			"faces": {
+				"down": { "uv": [ 5, 11.25, 6.75, 11.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 10.25, 6.75, 10 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 8.5, 6.75, 8.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.5, 9.25, 8.25, 9.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-33",
+			"from": [ 10, 0, 4.5 ],
+			"to": [ 14.5, 0.5, 5 ],
+			"faces": {
+				"down": { "uv": [ 5, 14, 7.25, 14.25 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 14.5, 7.25, 14.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7.25, 14.75, 5, 15 ], "texture": "#log_oak" },
+				"south": { "uv": [ 5, 15.75, 7.25, 16 ], "texture": "#log_oak" },
+				"west": { "uv": [ 15.75, 15.25, 16, 15.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9, 8, 8.75, 8.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-34",
+			"from": [ 10, 0.5, 4.5 ],
+			"to": [ 14, 1, 5.5 ],
+			"faces": {
+				"down": { "uv": [ 1.75, 15.5, 3.75, 16 ], "texture": "#log_oak" },
+				"up": { "uv": [ 1.75, 15.5, 3.75, 15 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7, 11.5, 5, 11.75 ], "texture": "#log_oak" },
+				"west": { "uv": [ 4.5, 8.5, 5, 8.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 5, 8.25, 4.5, 8.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-35",
+			"from": [ 10, 1, 5.5 ],
+			"to": [ 13, 1.5, 6 ],
+			"faces": {
+				"up": { "uv": [ 8.75, 16, 10.25, 15.75 ], "texture": "#log_oak" },
+				"north": { "uv": [ 11.75, 15.75, 10.25, 16 ], "texture": "#log_oak" },
+				"south": { "uv": [ 11.75, 15.75, 13.25, 16 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 11.25, 9.25, 11.5 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-36",
+			"from": [ 10, 1, 6 ],
+			"to": [ 11.5, 1.5, 6.5 ],
+			"faces": {
+				"up": { "uv": [ 13.75, 15.25, 14.5, 15 ], "texture": "#log_oak" },
+				"south": { "uv": [ 15.25, 15, 16, 15.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 8.75, 9.25, 9 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-37",
+			"from": [ 10.5, 0, 4 ],
+			"to": [ 14.5, 0.5, 4.5 ],
+			"faces": {
+				"down": { "uv": [ 5, 12.25, 7, 12.5 ], "texture": "#log_oak" },
+				"up": { "uv": [ 5, 12.75, 7, 12.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 7, 12.75, 5, 13 ], "texture": "#log_oak" },
+				"west": { "uv": [ 7, 13.25, 7.25, 13.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 13, 7, 13.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-38",
+			"from": [ 10.5, 0.5, 4 ],
+			"to": [ 13, 1, 4.5 ],
+			"faces": {
+				"up": { "uv": [ 7.25, 13.5, 8.5, 13.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 13, 7.25, 13.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 7, 12.75, 7.25, 13 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 12.5, 7, 12.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-39",
+			"from": [ 10.5, 1, 4.5 ],
+			"to": [ 13, 1.5, 5.5 ],
+			"faces": {
+				"up": { "uv": [ 3.75, 14.5, 5, 14 ], "texture": "#log_oak" },
+				"north": { "uv": [ 8.5, 12, 7.25, 12.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 6.75, 10.25, 7.25, 10.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 10, 6.75, 10.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-40",
+			"from": [ 11, 0, 6.5 ],
+			"to": [ 12, 1, 7 ],
+			"faces": {
+				"down": { "uv": [ 6.75, 9.75, 7.25, 10 ], "texture": "#log_oak" },
+				"up": { "uv": [ 6.75, 9.75, 7.25, 9.5 ], "texture": "#log_oak" },
+				"north": { "uv": [ 3.75, 9.25, 3.25, 9.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 4.5, 11.5, 5, 12 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.25, 9.75, 9, 10.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-41",
+			"from": [ 11, 0, 7 ],
+			"to": [ 11.5, 1, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 8.25, 8.75, 8.5, 9 ], "texture": "#log_oak" },
+				"up": { "uv": [ 8.25, 8.75, 8.5, 8.5 ], "texture": "#log_oak" },
+				"south": { "uv": [ 8.75, 9.25, 9, 9.75 ], "texture": "#log_oak" },
+				"east": { "uv": [ 8.75, 8.75, 8.5, 9.25 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-42",
+			"from": [ 11, 1, 6.5 ],
+			"to": [ 11.5, 1.5, 7 ],
+			"faces": {
+				"up": { "uv": [ 9.25, 11, 9.5, 10.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 9.25, 13, 9.5, 13.25 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 12.5, 9.25, 12.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-43",
+			"from": [ 11.5, 0, 5 ],
+			"to": [ 14.5, 0.5, 6 ],
+			"faces": {
+				"down": { "uv": [ 1.75, 9.25, 3.25, 9.75 ], "texture": "#log_oak" },
+				"up": { "uv": [ 1.75, 10.25, 3.25, 9.75 ], "texture": "#log_oak" },
+				"south": { "uv": [ 7.25, 15.5, 8.75, 15.75 ], "texture": "#log_oak" },
+				"west": { "uv": [ 6.75, 8.75, 7.25, 9 ], "texture": "#log_oak" },
+				"east": { "uv": [ 7.25, 8.5, 6.75, 8.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-44",
+			"from": [ 12, 0, 6 ],
+			"to": [ 14, 0.5, 6.5 ],
+			"faces": {
+				"down": { "uv": [ 7.25, 8.5, 8.25, 8.75 ], "texture": "#log_oak" },
+				"up": { "uv": [ 7.25, 8.5, 8.25, 8.25 ], "texture": "#log_oak" },
+				"south": { "uv": [ 8.5, 15.25, 9.5, 15.5 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 9.75, 9.5, 10 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 9.5, 9.25, 9.75 ], "texture": "#log_oak" }
+			}
+		},
+		{
+			"__comment": "wurzel-tile-45",
+			"from": [ 13, 0, 3.5 ],
+			"to": [ 14.5, 0.5, 4 ],
+			"faces": {
+				"down": { "uv": [ 8.5, 11.5, 9.25, 11.75 ], "texture": "#log_oak" },
+				"up": { "uv": [ 8.5, 11.5, 9.25, 11.25 ], "texture": "#log_oak" },
+				"north": { "uv": [ 9.25, 11, 8.5, 11.25 ], "texture": "#log_oak" },
+				"west": { "uv": [ 9.25, 8.25, 9.5, 8.5 ], "texture": "#log_oak" },
+				"east": { "uv": [ 9.5, 8, 9.25, 8.25 ], "texture": "#log_oak" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		}
+	}
+}

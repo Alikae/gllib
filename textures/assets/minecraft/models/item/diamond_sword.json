@@ -1,0 +1,80 @@
+{
+	"__comment": "Designed by Shadow204 | part of the Miri Quidi Recourcepack",
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/diamond_sword"
+				},
+
+	"overrides": [
+		{
+			"predicate": {
+				"damage": 0.0006402049,
+				"damaged": 0
+			},
+			"model": "predicate/diamond_sword1"
+		},
+		{
+			"predicate": {
+				"damage": 0.00128041,
+				"damaged": 0
+			},
+			"model": "predicate/diamond_sword2"
+		},
+		{
+			"predicate": {
+				"damage": 0.001920615,
+				"damaged": 0
+			},
+			"model": "predicate/diamond_sword3"
+		},
+		{
+			"predicate": {
+				"damage": 0.002560819,
+				"damaged": 0
+			},
+			"model": "predicate/diamond_sword4"
+		},
+		{
+			"predicate": {
+				"damage": 0.003201024,
+				"damaged": 0
+			},
+			"model": "predicate/diamond_sword5"
+		},
+		{
+			"predicate": {
+				"damage": 0.0006402049,
+				"damaged": 1
+			},
+			"model": "item/diamond_sword"
+		},
+		{
+			"predicate": {
+				"damage": 0.00128041,
+				"damaged": 1
+			},
+			"model": "item/diamond_sword"
+		},
+		{
+			"predicate": {
+				"damage": 0.001920615,
+				"damaged": 1
+			},
+			"model": "item/diamond_swordsss"
+		},
+		{
+			"predicate": {
+				"damage": 0.002560819,
+				"damaged": 1
+			},
+			"model": "item/diamond_sword"
+		},
+		{
+			"predicate": {
+				"damage": 0.003201024,
+				"damaged": 1
+			},
+			"model": "item/diamond_sword"
+		}
+	]
+}

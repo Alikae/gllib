@@ -1,0 +1,11 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "variants": {
+        "facing=up": { "model": "end_rod" },
+        "facing=down": { "model": "end_rod_down"},
+        "facing=east": { "model": "end_rod_side", "y": 90},
+        "facing=south": { "model": "end_rod_side", "y": 180},
+        "facing=west": { "model": "end_rod_side", "y": 270},
+        "facing=north": { "model": "end_rod_side", "y": 0}
+    }
+}

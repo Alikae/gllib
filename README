@@ -1,0 +1,3 @@
+create_graphics_interface();
+
+destroy_graphics_interface();

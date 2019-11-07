@@ -1,0 +1,21 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+	    "particle": "blocks/leaves_big_oak",
+    "all": "blocks/leaves_big_oak",
+    "extra": "recources/better_leaves_big_oak"
+	},
+    "variants": {
+        "normal": [
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak1" },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak1", "y": 90  },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak1", "y": 180 },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak1", "y": 270 },
+		
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak2" },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak2", "y": 90  },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak2", "y": 180 },
+		{ "model": "leaves_dark_oak/better_leaves_dark_oak2", "y": 270 }
+				]
+		}
+}

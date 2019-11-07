@@ -1,0 +1,7 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "variants": {
+        "normal": { "model": "brick" },
+        "all":    { "model": "brick_doubleslab" }
+    }
+}

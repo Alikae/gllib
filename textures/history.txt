@@ -1,0 +1,1472 @@
+########################
+## 09.09.2017 ## V0.1 ##
+########################
+	blockstates
+		acacia_leaves.json
+		birch_leaves.json
+		brewing_stand.json
+		brick_double_slab.json
+		dark_oak_leaves.json
+		end_rod.json
+		grass.json
+		jungle_leaves.json
+		netherrack.json
+		oak_leaves.json
+		oak_sapling.json
+		sand.json
+		sandstone_double_slab.json
+		spruce_leaves.json
+		stone_stairs.json
+		waterlily.json
+		wheat.json
+
+	mcpatcher\cit\items\beetroot
+		beetroot_1-16.png
+		beetroot_1-16.properties
+		beetroot_17-32.png
+		beetroot_17-32.properties
+		beetroot_33-48.png
+		beetroot_33-48.properties
+		beetroot_49-64.png
+		beetroot_49-64.properties
+
+	mcpatcher\cit\items\beetroot_seeds
+		beetroot_seeds_1-4.png
+		beetroot_seeds_1-4.properties
+		beetroot_seeds_5-8.png
+		beetroot_seeds_5-8.properties
+		beetroot_seeds_9-12.png
+		beetroot_seeds_9-12.properties
+		beetroot_seeds_13-16.png
+		beetroot_seeds_13-16.properties
+		beetroot_seeds_17-20.png
+		beetroot_seeds_17-20.properties
+		beetroot_seeds_21-24.png
+		beetroot_seeds_21-24.properties
+		beetroot_seeds_25-28.png
+		beetroot_seeds_25-28.properties
+		beetroot_seeds_29-32.png
+		beetroot_seeds_29-32.properties
+		beetroot_seeds_33-36.png
+		beetroot_seeds_33-36.properties
+		beetroot_seeds_37-40.png
+		beetroot_seeds_37-40.properties
+		beetroot_seeds_41-44.png
+		beetroot_seeds_41-44.properties
+		beetroot_seeds_45-48.png
+		beetroot_seeds_45-48.properties
+		beetroot_seeds_49-52.png
+		beetroot_seeds_49-52.properties
+		beetroot_seeds_53-56.png
+		beetroot_seeds_53-56.properties
+		beetroot_seeds_57-60.png
+		beetroot_seeds_57-60.properties
+		beetroot_seeds_61-64.png
+		beetroot_seeds_61-64.properties
+
+	mcpatcher\cit\items\reeds
+		reeds_1-16.png
+		reeds_1-16.properties
+		reeds_17-32.png
+		reeds_17-32.properties
+		reeds_33-48.png
+		reeds_33-48.properties
+		reeds_49-64.png
+		reeds_49-64.properties
+
+	mcpatcher\cit\items\seeds_wheat
+		seeds_wheat_1-7.png
+		seeds_wheat_1-7.properties
+		seeds_wheat_8-14.png
+		seeds_wheat_8-14.properties
+		seeds_wheat_15-21.png
+		seeds_wheat_15-21.properties
+		seeds_wheat_22-28.png
+		seeds_wheat_22-28.properties
+		seeds_wheat_29-35.png
+		seeds_wheat_29-35.properties
+		seeds_wheat_36-42.png
+		seeds_wheat_36-42.properties	
+		seeds_wheat_43-49.png
+		seeds_wheat_43-49.properties
+		seeds_wheat_50-57.png
+		seeds_wheat_50-57.properties
+		seeds_wheat_58-64.png
+		seeds_wheat_58-64.properties
+		
+	mcpatcher\ctm\_overlays\cobblestone
+		0-16.png
+		cobblestone0.properties
+		cobblestone1.properties
+		cobblestone2.properties
+
+	mcpatcher\ctm\_overlays\dirt
+		0-16.png
+		dirt0.properties
+		dirt1.properties
+		dirt2.properties
+		dirt3.properties
+		dirt4.properties
+
+	mcpatcher\ctm\_overlays\grass
+		0-16.png
+		grass0.properties
+		grass1.properties
+		grass2.properties
+	
+	mcpatcher\ctm\_overlays\grassonmycelium	
+		0-16.png
+		grass0.properties
+
+	mcpatcher\ctm\_overlays\sand
+		0-16.png
+		sand0.properties
+		sand1.properties
+		sand2.properties
+	
+	mcpatcher\ctm\_overlays\stone
+		0-16.png
+		stone0.properties
+	
+	mcpatcher\ctm\bricks
+		1-48.png
+		block45.properties
+		bricks_1.xcf
+		bricks_original.xcf
+
+	mcpatcher\ctm\clay_silver
+		1-5.png
+		stained_clay_silver.png (Vanilla MC)
+		block159a.properties
+		block159b.properties
+		block159c.properties
+
+	mcpatcher\ctm\clay_white
+		1-4.png
+		stained_clay_white.png (Vanilla MC)
+		block159.properties
+		block159b.properties
+	
+	mcpatcher\ctm\cobblestone
+		1-3.png
+		block4.prperties
+
+	mcpatcher\ctm\cobblestone_mossy
+		0-1.png
+		block48a.properties
+		block139a.properties
+		10-11.png
+		block48b.properties
+		block139b.properties
+		20-21.png
+		block48c.properties
+		block139c.properties
+		30-31.png
+		block48d.properties
+		block139d.properties
+
+	mcpatcher\ctm\dirt
+		1-8.png
+		block3.properties
+
+	mcpatcher\ctm\end_rod\end
+		end_rod.properties
+		end_rod_side_end.png
+			end_rod_side_end.png.mcmeta
+	mcpatcher\ctm\end_rod\nether
+		end_rod.properties
+		end_rod_side_nether.png
+			end_rod_side_nether.png.mcmeta
+	
+	mcpatcher\ctm\flower_red
+		1-2.png
+		block38a.properties
+		3-4.png
+		block38b.properties
+		5-6.png
+		block38c.properties
+		7-8.png
+		block38d.properties
+
+	mcpatcher\ctm\glass
+		0-46.png
+		glass.properties
+		glass_pane.properties
+
+	mcpatcher\ctm\glowstone
+		block89a.properties
+		glowstone_end.png
+		block89b.properties
+		glowstone_end_old.png
+		block89c.properties
+		glowstone_jungle.png
+		block89d.properties
+		glowstone_nether.png
+		glowstone_nether_old.png
+
+	mcpatcher\ctm\grass
+		1.png
+		grass_top.properties
+
+	mcpatcher\ctm\gravel\hell
+		1-6.png
+		block13a.properties
+	mcpatcher\ctm\gravel\normal
+		1-6.png
+		block13a.properties
+	mcpatcher\ctm\gravel\ocean
+		1-4.png
+		block13a.properties
+
+	mcpatcher\ctm\mushroom_red_skin
+		0-2.png
+	
+	mcpatcher\ctm\planks_acacia
+		1.png
+		block5.properties
+	
+	mcpatcher\ctm\planks_big_oak	
+		o.png
+		block5.properties
+	
+	mcpatcher\ctm\planks_birch
+		o.png
+		block5.properties
+
+	mcpatcher\ctm\planks_jungle
+		o-1.png
+		block5.properties
+
+	mcpatcher\ctm\planks_oak
+		0-4.png
+		block5.properties
+	
+	mcpatcher\ctm\planks_spruce
+		o-3.png
+		block5.properties
+
+	mcpatcher\ctm\sand
+		0-27.png
+		seashell.png
+		sand.properties
+		sand2.properties
+	
+	mcpatcher\ctm\sand_red
+		0-3.png
+		sand.properties
+
+	mcpatcher\ctm\vines
+		0.png
+		1.png
+			1_1-5.png
+			1.properties
+		2.png
+		3.png
+			3.1-3.png
+			3.properties
+		vine.properties
+
+	#####################################
+
+	models\block\cobblestone
+		cobblestone_stair_arch.json
+
+	models\block\grass
+		grass_flower_1.json
+		grass_stone_1.json
+		grass_wood_1.json
+		grass_wood_2.json
+
+	models\block\leaves_acacia
+		better_leaves_acacia1.json
+		better_leaves_acacia2.json
+
+	models\block\leaves_birch
+		better_leaves_birch1.json
+		better_leaves_birch2.json
+
+	models\block\leaves_dark_oak
+		better_leaves_dark_oak1.json
+		better_leaves_dark_oak2.json
+	
+	models\block\leaves_jungle
+		better_leaves_jungle1.json
+		better_leaves_jungle2.json
+
+	models\block\leaves_oak
+		better_leaves_oak_1.json
+		better_leaves_oak_2.json
+		better_leaves_oak_apple_1.json
+		better_leaves_oak_apple_2.json
+		better_leaves_oak_apple_3.json
+		better_leaves_oak_apple_4.json
+		better_leaves_oak_apple_5.json
+		better_leaves_oak_apple_6.json
+
+	models\block\leaves_spruce
+		leaves_spruce_pine_1.json
+		leaves_spruce_pine_2.json
+		leaves_spruce_pine_3.json
+		leaves_spruce_pine_4.json
+		leaves_spruce_pine_5.json
+		leaves_spruce_pine_6.json
+		leaves_spruce1.json
+		leaves_spruce2.json
+		
+	models\block\sand
+		sand_normal.json
+		sand_sandy_1.json
+
+	models\block\saplings
+		sapling_oak_stage1.json
+		sapling_oak_stage2.json
+
+	models\block\waterlily
+		waterlily.json
+		waterlily_blue.json
+		waterlily_lightblue.json
+		waterlily_magenta.json
+		waterlily_pink.json
+		waterlily_purple.json
+		waterlily_red.json
+		waterlily_white.json
+		waterlily_yellow.json
+	
+	models\block
+		brick_doubleslab.json
+		dark_oak_fence_gate_closed.json
+		dark_oak_fence_gate_open.json
+		dark_oak_fence_inventory.json
+		dark_oak_fence_post.json
+		dark_oak_fence_side.json
+		end_rod.json
+		end_rod_down.json
+		end_rod_side.json
+		farmland_dry.json
+		farmland_moist.json
+		hay.json
+		iron_bars_post.json
+		reeds.json
+			textures\shadow\reeds_leav.png
+		sand_normal.json
+		sandstone_pillar.json
+		wall_inventory.json
+		wall_post.json
+		wall_side.json
+		wheat_stage6.json
+		wheat_stage7.json
+		wheat_stage7_1.json
+		wheat_stage7_2.json	
+	
+	####################################
+	texts
+		splashes.txt	
+	
+	#####################################
+	textures\blocks\anvil_base.png
+	textures\blocks\anvil_top_damaged_0.png.png
+	textures\blocks\anvil_top_damaged_1.png
+	textures\blocks\anvil_top_damaged_2.png
+	textures\blocks\bedrock.png
+	textures\blocks\brick.png
+	textures\blocks\cactus_bottom.png
+	textures\blocks\cactus_top.png
+	textures\blocks\clay.png
+	textures\blocks\coal_block.png
+	textures\blocks\coarse_dirt.png
+	textures\blocks\cobblestone.png
+	textures\blocks\cobblestone_mossy.png
+	textures\blocks\dirt.png
+	textures\blocks\dirt_podzol_side.png
+	textures\blocks\dirt_podzol_side_snowed.png
+	textures\blocks\dirt_podzol_top.png
+	textures\blocks\double_plant_fern_bottom.png
+	textures\blocks\double_plant_fern_top.png
+	textures\blocks\double_plant_grass_bottom.png
+	textures\blocks\double_plant_grass_top.png
+	textures\blocks\end_rod.png
+		end_rod.png.mcmeta
+	textures\blocks\end_rod_bottom.png
+	textures\blocks\farmland_dry.png
+	textures\blocks\farmland_wet.png
+	textures\blocks\fern.png
+	textures\blocks\glass.png
+	textures\blocks\glass_pane_top.png
+	textures\blocks\glowstone.png
+	textures\blocks\gold_ore.png
+	textures\blocks\grass_side.png
+	textures\blocks\grass_side_overlay.png
+	textures\blocks\grass_side_snowed.png
+	textures\blocks\grass_top.png
+	textures\blocks\gravel.png
+	textures\blocks\hardened_clay_stained_silver.png
+	textures\blocks\hardened_clay_stained_white.png
+	textures\blocks\iron_ore.png
+	textures\blocks\leaves_acacia.png
+	textures\blocks\leaves_big_oak.png
+	textures\blocks\leaves_birch.png
+	textures\blocks\leaves_jungle.png
+	textures\blocks\leaves_oak.png
+	textures\blocks\leaves_spruce.png
+	textures\blocks\log_acacia.png
+	textures\blocks\log_acacia_top.png
+	textures\blocks\log_big_oak.png
+	textures\blocks\log_big_oak_top.png
+	textures\blocks\log_birch.png
+	textures\blocks\log_birch_top.png
+	textures\blocks\log_jungle.png
+	textures\blocks\log_jungle_top.png
+	textures\blocks\log_oak.png
+	textures\blocks\log_oak_top.png
+	textures\blocks\log_spruce.png
+	textures\blocks\log_spruce_top.png
+	textures\blocks\netherrack.png
+	textures\blocks\netherrack_off.png
+	textures\blocks\planks_acacia.png
+	textures\blocks\planks_big_oak.png
+	textures\blocks\planks_birch.png
+	textures\blocks\planks_jungle.png
+	textures\blocks\planks_oak.png
+	textures\blocks\planks_spruce.png
+	textures\blocks\prismarine_bricks.png
+	textures\blocks\red_sand.png
+	textures\blocks\reeds.png
+	textures\blocks\sand.png
+	textures\blocks\stone.png
+	textures\blocks\stone_andesite.png
+	textures\blocks\stone_andesite_smooth.png
+	textures\blocks\stone_diorite.png
+	textures\blocks\stone_diorite_smooth.png
+	textures\blocks\stone_granite.png
+	textures\blocks\stone_granite_smooth.png
+	textures\blocks\stone_slab_side.png
+	textures\blocks\stone_slab_top.png
+	textures\blocks\stonebrick.png
+	textures\blocks\stonebrick_carved.png
+	textures\blocks\stonebrick_cracked.png
+	textures\blocks\stonebrick_mossy.png
+	textures\blocks\tallgrass.png
+	textures\blocks\vine.png
+	textures\blocks\wall_cobblestone.png
+	textures\blocks\water_flow.png
+		water_flow.png.mcmeta
+	textures\blocks\water_overlay.png
+	textures\blocks\water_still.png
+		water_still.png.mcmeta
+	textures\blocks\waterlily.png
+	textures\blocks\wool_colored_black.png
+	textures\blocks\wool_colored_blue.png
+	textures\blocks\wool_colored_brown.png
+	textures\blocks\wool_colored_cyan.png
+	textures\blocks\wool_colored_gray.png
+	textures\blocks\wool_colored_green.png
+	textures\blocks\wool_colored_light_blue.png
+	textures\blocks\wool_colored_lime.png
+	textures\blocks\wool_colored_magenta.png
+	textures\blocks\wool_colored_orange.png
+	textures\blocks\wool_colored_pink.png
+	textures\blocks\wool_colored_purple.png
+	textures\blocks\wool_colored_red.png
+	textures\blocks\wool_colored_silver.png
+	textures\blocks\wool_colored_white.png
+	textures\blocks\wool_colored_yellow.png
+	
+	textures\items\apple.png
+	textures\items\apple_golden.png
+	textures\items\beetroot.png
+	textures\items\bucket_lava.png
+		-bucket_lava.png.mcmeta
+	textures\items\seeds_wheat.png
+
+	
+
+
+########################
+## 09.11.2017 ## V0.2 ##
+########################
+	textures\blocks\ice.png
+	textures\blocks\ice_packed.png	
+	textures\blocks\mushroom_block_inside.png
+	textures\blocks\mushroom_block_skin_brown.png
+	textures\blocks\mushroom_block_skin_red.png
+
+	textures\items\bread.png
+	textures\items\brick.png
+	textures\items\charcoal.png
+	textures\items\clay.png
+	textures\items\fish_cod_raw.png
+	textures\items\gold_ingot.png
+	textures\items\gunpowder.png
+	textures\items\iron_ingot.png
+	textures\items\leather.png
+	textures\items\map_empty.png
+	textures\items\map_filled.png
+	textures\items\porkchop_raw.png
+
+########################
+## 17.11.2017 ## V0.3 ##
+########################
+	models\predicate\diamond_sword1.json
+		textures\shadow\red.png
+		textures\shadow\darkgray.png
+		textures\shadow\decor.png
+		textures\shadow\silver.png
+		textures\shadow\darkred.png
+		textures\shadow\link.png
+
+	models\predicate\
+		diamond_sword2.json
+		diamond_sword4.json
+			textures\shadow\voxels.png
+
+	blockstates\brewing_stand.json
+		models\block\brewigstand
+			brewing_stand_bottles_1.json
+			brewing_stand_bottles_2.json
+			brewing_stand_bottles_3.json
+			brewing_stand_bottles_12.json
+			brewing_stand_bottles_13.json
+			brewing_stand_bottles_23.json
+			brewing_stand_bottles_123.json
+			brewing_stand_empty.json
+				textures\shadow\brewing.png
+					brewing.png.mcmeta
+				textures\shadow\brewing_stand_misc.png
+				textures\shadow\iron_bars.png
+
+########################
+## 23.11.2017 ## V0.4 ##
+########################
+
+	models\predicate\diamond_sword5.json
+		-textures\shadow\grizzle_black.png
+
+	textures\items\arrow.png
+	textures\items\carrot.png
+	textures\items\porkchop_cooked.png
+	textures\items\stone_sword.png
+	textures\items\tipped_arrow_base.png
+	textures\items\tipped_arrow_head.png
+
+########################
+## 23.11.2017 ## V0.5 ##
+########################
+
+	blockstates\wood_old_slab.json
+		half_slab_dirt.json
+		upper_slab_dirt.json
+
+	models\block\torch.json
+	models\block\torch_wall.json
+	models\item\torch.json
+	
+	textures\items\flint.png
+	textures\items\redstone_dust.png
+	textures\items\emerald.png
+	textures\items\dye_powder_blue.png (Lapislazuli)
+	textures\items\coal.png
+
+########################
+## 15.12.2017 ## V0.6 ##
+########################
+		
+
+[EDIT]	textures\items\dye_powder_blue.png (Lapislazuli)
+[NEW]	textures\items\coal.png
+[EDIT]	textures\items\arrow.png
+[NEW]	textures\items\beetroot_seeds.png
+[NEW]	textures\items\string.png
+[EDIT]	textures\blocks\tallgrass.png
+[EDIT]	textures\blocks\double_plant_grass_bottom.png
+[EDIT]	textures\blocks\double_plant_grass_top.png
+	mcpatcher\ctm\stone_slab
+[NEW]		0-3.png
+[NEW]		stone_slab_side.properties
+[NEW]		1.properties
+[NEW]	textures\blocks\stone_slab_side.png
+[EDIT]	textures\blocks\stone_slab_top.png
+
+	mcpatcher\cit\renames
+	apple\
+[NEW]		apple.png
+[NEW]		apple.properties
+[NEW]		apple_golden.png
+[NEW]		apple_golden.properties
+[NEW]		apple_golden_enchant.properties
+	arrow\
+[NEW]		arrow.png
+[NEW]		arrow.properties
+	beetroot\
+[NEW]		beetroot.png
+[NEW]		beetroot.properties
+[NEW]		beetroot_seeds.png
+[NEW]		beetroot_seeds.properties
+	bread\
+[NEW]		bread.png
+[NEW]		bread.properties
+	brick\
+[NEW]		brick.png
+[NEW]		brick.properties
+	carrot\
+[NEW]		carrot.png
+[NEW]		carrot.properties
+	charcoal\
+[NEW]		charcoal.png
+[NEW]		charcoal.properties
+	clay_ball\
+[NEW]		clay_ball.png
+[NEW]		clay_ball.properties
+	coal\
+[NEW]		coal.png
+[NEW]		coal.properties
+	cookie\
+[NEW]		cookie.png
+[NEW]		cookie.properties
+[NEW]		cookie_oreo.png
+[NEW]		cookie_oreo.properties
+	emerald\
+[NEW]		emerald.png
+[NEW]		emerald.properties
+	fish_cod\
+[NEW]		fish_cod.png
+[NEW]		fish_cod.properties
+	flint\
+[NEW]		flint.png
+[NEW]		flint.properties
+	gold_ingot
+[NEW]		gold_ingot.png
+[NEW]		gold_ingot.properties
+	gunpowder\
+[NEW]		gunpowder.png
+[NEW]		gunpowder.properties
+	iron_ingot\
+[NEW]		iron_ingot.png
+[NEW]		iron_ingot.properties
+	lapis_lazuli\
+[NEW]		lapis_lazuli.png
+[NEW]		lapis_lazuli.properties
+	leather\
+[NEW]		leather.png
+[NEW]		leather.properties
+	map\
+[NEW]		map.png
+[NEW]		map.properties
+	porkchop\
+[NEW]		porkchop.png
+[NEW]		porkchop.properties
+	redstone_dust\
+[NEW]		redstone_dust.png
+[NEW]		redstone_dust.properties
+[NEW]		wire_red.png
+[NEW]		wire_red.properties
+[NEW]		wire_green.png
+[NEW]		wire_green.properties
+	reeds\
+[NEW]		reeds.png
+[NEW]		reeds.properties
+	snow_ball\
+[NEW]		grenade.png
+[NEW]		grenade.properties
+	stone_sword.png
+[NEW]		stone_sword.png
+[NEW]		stone_sword.properties
+	string\
+[NEW]		string.png
+[NEW]		string.properties
+	wheat\
+[NEW]		seeds_wheat.png
+[NEW]		seeds_wheat.properties
+
+########################
+## 06.01.2018 ## V0.7 ##
+########################
+
+[EDIT]	blocksates\sand.json
+		models\blocks\sand\
+[EDIT]		sand_normal.json
+[EDIT]		sand_sandy_0.json
+[NEW]		sand_sandy_1.json
+[NEW]		sand_sandy_2.json
+	models\blocks\leaves_oak
+[EDIT]		better_leaves_oak_1.json
+[EDIT]		better_leaves_oak_2.json	
+[EDIT]		better_leaves_oak_apple_1.json
+[EDIT]		better_leaves_oak_apple_2.json
+[EDIT]		better_leaves_oak_apple_3.json
+[EDIT]		better_leaves_oak_apple_4.json
+[EDIT]		better_leaves_oak_apple_5.json
+[EDIT]		better_leaves_oak_apple_6.json
+[EDIT]	models\blocks\farmland_dry.json
+[EDIT]	models\blocks\farmland_moist.json
+[EDIT]	models\blocks\hay.json
+
+###########################
+## 12.01.2018 ## V0.8_A ##
+###########################
+[EDIT]	blocks\cobblestone.png
+
+[NEW]	blocks\glazed_terracotta_black.png
+[NEW]	blocks\glazed_terracotta_blue.png
+[NEW]	blocks\glazed_terracotta_brown.png
+[NEW]	blocks\glazed_terracotta_cyan.png
+[NEW]	blocks\glazed_terracotta_gray.png
+[NEW]	blocks\glazed_terracotta_light_blue.png
+[NEW]	blocks\glazed_terracotta_orange.png
+[NEW]	blocks\glazed_terracotta_silver.png
+[NEW]	blocks\glazed_terracotta_white.png
+[NEW]	blocks\sandstone_bottom.png
+[NEW]	blocks\sandstone_bottom.png
+[NEW]	blocks\sandstone_bottom.png
+[EDIT]	blocks\grass_side_overlay.png
+[EDIT]	blocks\grass_top.png
+[EDIT]	blocks\stone.png
+
+	shadow\flower_overlay
+[NEW]		flower_overlay_red.png
+
+	models\block\grass
+[NEW]		grass_normal.json
+[NEW]		grass_floweroverlay.json
+[EDIT]		grass_
+
+	mcpatcher\ctm\dirt
+[NEW]		dirt_dessert.png
+[NEW]		bock3b.properties
+[EDIT]		block3a.properties
+
+	mcpatcher\ctm\grass
+[NEW]		0-11.png
+[NEW]		grass_top.properties
+[NEW]		12-15.png	
+[NEW]		grass_sider_overlay.properties
+
+	mcpatcher\ctm\_overlays\grass
+[EDIT]		grass1.properties
+[NEW]		grass3.properties
+
+	mcpatcher\ctm\_overlays\grass
+[EDIT]		dirt2.properties
+[NEW]		dirt5.properties
+
+##########################
+## 13.01.2018 ## V0.8_B ##
+##########################
+
+	mcpatcher\cit\renames\slimeball
+[NEW]		slimeball_1.png
+[NEW]		slimeball_1.proprties
+
+	mcpatcher\ctm\cobblestone_mossy\
+[NEW]		1-16.png
+[NEW]		block48.properties
+[NEW]		block139.properties
+
+	mcpatcher\ctm\ore_gold\
+[NEW]		1-16.png
+[NEW]		block14.properties
+
+	mcpatcher\ctm\stone\
+[NEW]		1-16.png
+[NEW]		block1.properties
+
+	mcpatcher\ctm\cobblestone\
+[NEW]		1-16.png
+[NEW]		block4.properties
+[NEW]		block44.properties
+[NEW]		block67.properties
+[NEW]		block139.properties
+
+	models\block\
+[EDIT]		wall_post.json
+
+	textures\blocks\
+[EDIT]		cobblestone_mossy.png
+[NEW]		prismarine_rough.png
+[NEW]		prismarine_rough.png.mcmeta
+
+#########################
+## 14.01.2018 ## V0.9 ##
+#########################
+
+	mcpatcher\cit\renames\nugget_gold\coin
+[NEW]		coin_small.png
+[NEW]		gold_coin_s1.png
+[NEW]		gold_coin_s1.properties
+[NEW]		gold_coin_s2.png
+[NEW]		gold_coin_s2.properties
+[NEW]		gold_coin_s3.png
+[NEW]		gold_coin_s3.properties
+[NEW]		gold_coin_s4.png
+[NEW]		gold_coin_s4.properties
+[NEW]		gold_coin_s5.png
+[NEW]		gold_coin_s5.properties
+[NEW]		gold_coin_s6.png
+[NEW]		gold_coin_s6.properties
+[NEW]		gold_coin_s7.png
+[NEW]		gold_coin_s7.properties
+[NEW]		gold_coin_s8.png
+[NEW]		gold_coin_s8.properties
+[NEW]		gold_coin_s9.png
+[NEW]		gold_coin_s9.properties
+[NEW]		gold_coin_s10.png
+[NEW]		gold_coin_s10.properties
+[NEW]		gold_coin_s11.png
+[NEW]		gold_coin_s11.properties
+[NEW]		gold_coin_s12.png
+[NEW]		gold_coin_s12.properties
+[NEW]		gold_coin_s13.png
+[NEW]		gold_coin_s13.properties
+[NEW]		gold_coin_s14.png
+[NEW]		gold_coin_s14.properties
+[NEW]		gold_coin_s15.png
+[NEW]		gold_coin_s15.properties
+[NEW]		gold_coin_s16.png
+[NEW]		gold_coin_s16.properties
+
+	mcpatcher\ctm\mushroom_red_skin\
+[NEW]		mushroom_block_skin_red.properties
+
+	blockstates\
+[EDIT]		grass.json
+
+	models\block\grass\
+[NEW]		grass_normal1.json
+[EDIT]		grass_flower_1.json
+[EDIT]		grass_stone_1.json
+
+	mcpatcher\ctm\snow_layer
+[NEW]		0-2.png
+[NEW]		block78a.properties
+[NEW]		3-5.png
+[NEW]		block78b.properties
+
+#########################
+## 16.01.2018 ## V0.10 ##
+#########################
+	
+	modells\block
+[NEW]		wheat_stage0.json	
+[NEW]		wheat_stage1.json
+[NEW]		wheat_stage2.json
+[NEW]		wheat_stage3.json
+[NEW]		wheat_stage4.json
+[NEW]		wheat_stage5.json
+[NEW]		wheat_stage6.json
+[NEW]		wheat_stage7.json
+
+[EDIT]		farmland_dry.json
+[EDIT]		farmland_moist.json
+
+	texts\
+[EDIT]		splashes.txt
+
+	textures\blocks\
+[NEW]		wheat_stage_0.png
+[NEW]		wheat_stage_1.png
+[NEW]		wheat_stage_2.png
+[NEW]		wheat_stage_3.png
+[NEW]		wheat_stage_4.png
+[NEW]		wheat_stage_5.png
+[NEW]		wheat_stage_6.png
+[NEW]		wheat_stage_7.png
+
+[NEW]		nether_wart_stage_0.png
+[NEW]		nether_wart_stage_1.png
+[NEW]		nether_wart_stage_2.png
+
+[NEW]		glazed_terracotta_black.png
+
+	textures\items\
+[NEW]		nether_wart.png
+
+	mcpatcher\ctm\bedrock
+[NEW]		bedrock.xcf
+[NEW]		1-16.png
+[NEW]		block7.properties
+
+	mcpatcher\ctm\nether_rack
+[NEW]		1-16.png
+[NEW]		block87.properties
+[NEW]		netther_rak.xcf
+
+	mcpatcher\cit\items\stacks\nether_wart
+[NEW]		nether_wart_1-16.png		
+[NEW]		nether_wart_1-16.properties
+[NEW]		nether_wart_17-32.png
+[NEW]		nether_wart_17-32.properties
+[NEW]		nether_wart_33-48.png
+[NEW]		nether_wart_33-48.properties
+[NEW]		nether_wart_49-64.png
+[NEW]		nether_wart_49-64.properties
+[NEW]		nether_wart.xcf
+
+#########################
+## 19.01.2018 ## V0.11 ##
+#########################
+
+	modells\block
+[NEW]		fence_side.json
+[NEW]		fence_inventory.json
+
+	textures\blocks\
+[NEW]		snow.png
+
+	mcpatcher\cit\apple
+[NEW]		apple_1-8.png
+[NEW]		apple_1-8.properties
+[NEW]		apple_9-16.png
+[NEW]		apple_9-16.properties
+[NEW]		apple_17-24.png
+[NEW]		apple_17-24.properties
+[NEW]		apple_25-32.png
+[NEW]		apple_25-32.properties
+[NEW]		apple_33-40.png
+[NEW]		apple_33-40.properties
+[NEW]		apple_41-48.png
+[NEW]		apple_41-48.properties
+[NEW]		apple_49-56.png
+[NEW]		apple_49-56.properties
+[NEW]		apple_57-64.png
+[NEW]		apple_57-64.prperties
+
+[NEW]		apple_stack.xcf
+
+	mcpatcher\cit\leather
+[NEW]		leather_1-4.png
+[NEW]		leather_1-4.properties
+[NEW]		leather_5-8.png
+[NEW]		leather_5-8.properties
+[NEW]		leather_9-12.png
+[NEW]		leather_9-12.properties
+[NEW]		leather_13-16.png
+[NEW]		leather_13-16.properties
+[NEW]		leather_17-20.png
+[NEW]		leather_17-20.properties
+[NEW]		leather_21-24.png
+[NEW]		leather_21-24.properties
+[NEW]		leather_25-28.png
+[NEW]		leather_25-28.properties
+[NEW]		leather_29-32.png
+[NEW]		leather_29-32.properties
+[NEW]		leather_33-36.png
+[NEW]		leather_33-36.properties
+[NEW]		leather_37-40.png
+[NEW]		leather_37-40.properties
+[NEW]		leather_41-44.png
+[NEW]		leather_41-44.properties
+[NEW]		leather_45-48.png
+[NEW]		leather_45-48.properties
+[NEW]		leather_49-52.png
+[NEW]		leather_49-52.properties
+[NEW]		leather_53-56.png
+[NEW]		leather_53-56.properties
+[NEW]		leather_57-60.png
+[NEW]		leather_57-60.properties
+[NEW]		leather_61-64.png
+[NEW]		leather_61-64.prperties
+
+[NEW]		leather_stack.xcf
+
+	mcpatcher\cit\carrot
+[NEW]		carrot_1-4.png
+[NEW]		carrot_1-4.properties
+[NEW]		carrot_5-8.png
+[NEW]		carrot_5-8.properties
+[NEW]		carrot_9-12.png
+[NEW]		carrot_9-12.properties
+[NEW]		carrot_13-16.png
+[NEW]		carrot_13-16.properties
+[NEW]		carrot_17-20.png
+[NEW]		carrot_17-20.properties
+[NEW]		carrot_21-24.png
+[NEW]		carrot_21-24.properties
+[NEW]		carrot_25-28.png
+[NEW]		carrot_25-28.properties
+[NEW]		carrot_29-32.png
+[NEW]		carrot_29-32.properties
+[NEW]		carrot_33-36.png
+[NEW]		carrot_33-36.properties
+[NEW]		carrot_37-40.png
+[NEW]		carrot_37-40.properties
+[NEW]		carrot_41-44.png
+[NEW]		carrot_41-44.properties
+[NEW]		carrot_45-48.png
+[NEW]		carrot_45-48.properties
+[NEW]		carrot_49-52.png
+[NEW]		carrot_49-52.properties
+[NEW]		carrot_53-56.png
+[NEW]		carrot_53-56.properties
+[NEW]		carrot_57-60.png
+[NEW]		carrot_57-60.properties
+[NEW]		carrot_61-64.png
+[NEW]		carrot_61-64.prperties
+
+[NEW]		carrot_stack.xcf
+
+	mcpatcher\ctm\glass_block_white
+[NEW]		0-3.png
+[NEW]		block95.png
+
+	mcpatcher\ctm\_overlay\grass
+[EDIT]		0-16.png
+
+#########################
+## 02.06.2018 ## V0.12A ##
+#########################
+
+	blockstates\
+[NEW]		dirt.json
+
+	mcpatcher\cit\renames\bone\
+[NEW]		bone_default.png
+[NEW]		bone_default.properties
+[NEW]		skull.png
+[NEW]		skull.properties
+
+	mcpatcher\cit\renames\fire_ball\
+[NEW]		fireball_default.png
+[NEW]		fireball_default.properties
+
+	mcpatcher\cit\renames\ingot_gold\
+[NEW]		golden_dice.png		
+[NEW]		golden_dice.properties
+[NEW]		golden_key.png
+[NEW]		golden_key.properties
+[NEW]		golden_skull.png
+[NEW]		golden_skull.properties
+[NEW]		golden_skull_goat.png
+[NEW]		golden_skull_goat.properties
+
+[NEW]		treasure_gold.png
+[NEW]		treasure_gold.properties
+[NEW]		treasure_gold_apfel.png
+[NEW]		treasure_gold_apfel.properties
+[NEW]		treasure_gold_harfe.png
+[NEW]		treasure_gold_harfe.properties
+[NEW]		treasure_gold_kerzenleuchter.png
+[NEW]		treasure_gold_kerzenleuchter.properties
+[NEW]		treasure_gold_krone.png
+[NEW]		treasure_gold_krone.properties
+[NEW]		treasure_gold_madliong.png
+[NEW]		treasure_gold_madliong.properties
+[NEW]		treasure_gold_ring.png
+[NEW]		treasure_gold_ring.properties
+[NEW]		treasure_gold_siegelring.png
+[NEW]		treasure_gold_siegelring.properties	
+
+	mcpatcher\cit\renames\map\
+[NEW]		treasure_map.png
+[NEW]		treasure_map.properties
+
+	mcpatcher\cit\renames\nether_wart
+[NEW]		nether_wart_default.png
+[NEW]		nether_wart_default.properties
+
+	mcpatcher\cit\renames\nugget_gold\gold_coin_64
+[NEW]		gold_nugget_1.png
+[NEW]		gold_nugget_1.properties
+[NEW]		gold_nugget_2.png
+[NEW]		gold_nugget_2.properties
+[NEW]		gold_nugget_3.png
+[NEW]		gold_nugget_3.properties
+[NEW]		gold_nugget_4.png
+[NEW]		gold_nugget_4.properties
+[NEW]		gold_nugget_5.png
+[NEW]		gold_nugget_5.properties
+[NEW]		gold_nugget_6.png
+[NEW]		gold_nugget_6.properties
+[NEW]		gold_nugget_7.png
+[NEW]		gold_nugget_7.properties
+[NEW]		gold_nugget_8.png
+[NEW]		gold_nugget_8.properties
+[NEW]		gold_nugget_9.png
+[NEW]		gold_nugget_9.properties
+[NEW]		gold_nugget_10.png
+[NEW]		gold_nugget_10.properties
+[NEW]		gold_nugget_11.png
+[NEW]		gold_nugget_11.properties
+[NEW]		gold_nugget_12.png
+[NEW]		gold_nugget_12.properties
+[NEW]		gold_nugget_13.png
+[NEW]		gold_nugget_13.properties
+[NEW]		gold_nugget_14.png
+[NEW]		gold_nugget_14.properties
+[NEW]		gold_nugget_15.png
+[NEW]		gold_nugget_15.properties
+[NEW]		gold_nugget_16.png
+[NEW]		gold_nugget_16.properties
+[NEW]		gold_nugget_17.png
+[NEW]		gold_nugget_17.properties
+[NEW]		gold_nugget_18.png
+[NEW]		gold_nugget_18.properties
+[NEW]		gold_nugget_19.png
+[NEW]		gold_nugget_19.properties
+[NEW]		gold_nugget_20.png
+[NEW]		gold_nugget_20.properties
+[NEW]		gold_nugget_21.png
+[NEW]		gold_nugget_21.properties
+[NEW]		gold_nugget_22.png
+[NEW]		gold_nugget_22.properties
+[NEW]		gold_nugget_23.png
+[NEW]		gold_nugget_23.properties
+[NEW]		gold_nugget_24.png
+[NEW]		gold_nugget_24.properties
+[NEW]		gold_nugget_25.png
+[NEW]		gold_nugget_25.properties
+[NEW]		gold_nugget_26.png
+[NEW]		gold_nugget_26.properties
+[NEW]		gold_nugget_27.png
+[NEW]		gold_nugget_27.properties
+[NEW]		gold_nugget_28.png
+[NEW]		gold_nugget_28.properties
+[NEW]		gold_nugget_29.png
+[NEW]		gold_nugget_29.properties
+[NEW]		gold_nugget_30.png
+[NEW]		gold_nugget_30.properties
+[NEW]		gold_nugget_31.png
+[NEW]		gold_nugget_31.properties
+[NEW]		gold_nugget_32.png
+[NEW]		gold_nugget_32.properties
+[NEW]		gold_nugget_32+.png
+[NEW]		gold_nugget_32+.properties
+[NEW]		gold_nugget_48.png
+[NEW]		gold_nugget_48.properties
+[NEW]		gold_nugget_48+.png
+[NEW]		gold_nugget_48+.properties
+[NEW]		gold_nugget_64.png
+[NEW]		gold_nugget_64.properties
+[NEW]		gold_nugget_example.png
+
+	mcpatcher\cit\renames\nugget_iron\coin_silver\
+[NEW]		iron_nugget_1.png
+[NEW]		iron_nugget_1.properties
+[NEW]		iron_nugget_2.png
+[NEW]		iron_nugget_2.properties
+[NEW]		iron_nugget_3.png
+[NEW]		iron_nugget_3.properties
+[NEW]		iron_nugget_4.png
+[NEW]		iron_nugget_4.properties
+[NEW]		iron_nugget_5.png
+[NEW]		iron_nugget_5.properties
+[NEW]		iron_nugget_6.png
+[NEW]		iron_nugget_6.properties
+[NEW]		iron_nugget_7.png
+[NEW]		iron_nugget_7.properties
+[NEW]		iron_nugget_8.png
+[NEW]		iron_nugget_8.properties
+[NEW]		iron_nugget_9.png
+[NEW]		iron_nugget_9.properties
+[NEW]		iron_nugget_10.png
+[NEW]		iron_nugget_10.properties
+[NEW]		iron_nugget_11.png
+[NEW]		iron_nugget_11.properties
+[NEW]		iron_nugget_12.png
+[NEW]		iron_nugget_12.properties
+[NEW]		iron_nugget_13.png
+[NEW]		iron_nugget_13.properties
+[NEW]		iron_nugget_14.png
+[NEW]		iron_nugget_14.properties
+[NEW]		iron_nugget_15.png
+[NEW]		iron_nugget_15.properties
+[NEW]		iron_nugget_16.png
+[NEW]		iron_nugget_16.properties
+[NEW]		iron_nugget_17.png
+[NEW]		iron_nugget_17.properties
+[NEW]		iron_nugget_18.png
+[NEW]		iron_nugget_18.properties
+[NEW]		iron_nugget_19.png
+[NEW]		iron_nugget_19.properties
+[NEW]		iron_nugget_20.png
+[NEW]		iron_nugget_20.properties
+[NEW]		iron_nugget_21.png
+[NEW]		iron_nugget_21.properties
+[NEW]		iron_nugget_22.png
+[NEW]		iron_nugget_22.properties
+[NEW]		iron_nugget_23.png
+[NEW]		iron_nugget_23.properties
+[NEW]		iron_nugget_24.png
+[NEW]		iron_nugget_24.properties
+[NEW]		iron_nugget_25.png
+[NEW]		iron_nugget_25.properties
+[NEW]		iron_nugget_26.png
+[NEW]		iron_nugget_26.properties
+[NEW]		iron_nugget_27.png
+[NEW]		iron_nugget_27.properties
+[NEW]		iron_nugget_28.png
+[NEW]		iron_nugget_28.properties
+[NEW]		iron_nugget_29.png
+[NEW]		iron_nugget_29.properties
+[NEW]		iron_nugget_30.png
+[NEW]		iron_nugget_30.properties
+[NEW]		iron_nugget_31.png
+[NEW]		iron_nugget_31.properties
+[NEW]		iron_nugget_32.png
+[NEW]		iron_nugget_32.properties
+[NEW]		iron_nugget_32+.png
+[NEW]		iron_nugget_32+.properties
+[NEW]		iron_nugget_48.png
+[NEW]		iron_nugget_48.properties
+[NEW]		iron_nugget_48+.png
+[NEW]		iron_nugget_48+.properties
+[NEW]		iron_nugget_64.png
+[NEW]		iron_nugget_64.properties
+[NEW]		iron_nugget_example.png
+
+	mcpatcher\cit\renames\slimeball\
+[NEW]		slimeball_default.png
+[NEW]		slimeball_default.properties
+
+	mcpatcher\cit\renames\stick\
+[NEW]		stick_default.png
+[NEW]		stick_default.properties
+
+	mcpatcher\cit\renames\sword_gold\
+[NEW]		golden_hammer.png
+[NEW]		golden_hammer.properties
+[NEW]		gold_sword_default.png
+[NEW]		gold_sword_default.properties
+
+	mcpatcher\ctm\ore_gold
+[NEW]		1-16.properties
+[NEW]		17-32.png
+[NEW]		ore_gold_desert.xcf
+[NEW]		ore_gold.xcf
+
+	mcpacther\ctm\ore_iron
+[NEW]		1-16.png
+[NEW]		1-16.properties
+[NEW]		17-32.png
+[NEW]		block15.properties
+[NEW]		ore_iron.xcf
+[NEW]		ore_iron_desert.xcf
+
+	mcpacther\ctm\sand
+[REMOVE]	0-27.png
+[REMOVE]	sand.properties
+[REMOVE]	sand2.properties
+[NEW]		1-16.png
+[NEW]		block12.properties
+
+	mcpacther\ctm\_overlays\ore_iron
+[NEW]		iron_ore.properties
+[NEW]		1-16.png
+
+	mcpatcher\ctm\dirt
+[NEW]		1-16.png
+[NEW]		1-16.properties
+[NEW]		17-32.png
+[NEW]		dirt.xcf
+[NEW]		dirt_desert.xcf
+[NEW]		dirt_mycelium.xcf
+
+	mcpatcher\ctm\stone
+[NEW]		1-16.mcpatcher
+[NEW]		17-32.png
+
+	mcpatcher\ctm\obsidian
+[NEW]		1-16.png
+[NEW]		block.properties
+[NEW]		obsidian.xcf
+
+	models\block\
+[NEW]		birch_fence_inventory.json
+[NEW]		birch_fence_post.json
+[NEW]		birch_fence_side.json
+[NEW]		oak_fence_post.json
+[NEW]		oak_fence_inventory.json
+[NEW]		oak_fence_side.json
+[REMOVE]	fence_post.json
+[REMOVE]	fence_side.json
+[NEW]		brown_mushroom.json
+	
+	textures\gui\title\
+[NEW]		edition.png
+[NEW]		minecraft.png
+
+	textures\blocks\
+[NEW]		obsdian.png
+[REMOVE]	sandstone_bottom.png
+[REMOVE]	sandstone_normal.png
+[REMOVE]	sandstone_top.png
+
+	\texts\gui\buttons
+[NEW]		button_home.png
+
+	textures\items\
+[NEW]		bone.png
+[NEW]		gold_sword.png
+[NEW]		diamond_sword.png
+[NEW]		diamond_sword.png.mcmeta
+
+	MiriQuidi-Pack 1.12 V0.12\
+[EDIT]		pack.mcmeta
+
+	mcpatcher\cit\renames\apple
+[EDIT]		apple.properties
+[NEW]		apple_de.properties
+[EDIT]		apple_golden.properties
+[NEW]		apple_golden_de.properties
+[EDIT]		apple_golden_enchant.properties
+[NEW]		apple_golden_enchant_de.properties
+
+##########################
+## 13.06.2018 ## V0.12B ##
+##########################
+
+	mcpatcher\ctm\sandstone_smooth\
+[NEW]		1-16.png
+[NEW]		block24a.properties
+[NEW]		block24b.properties
+[NEW]		block128.properties
+[NEW]		block44.properties
+[NEW]		sandstone_smooth.xcf
+
+	mcpatcher\ctm\coal_block
+[NEW]		1-16.png
+[NEW]		block24.properties
+[NEW]		block128.properties
+[NEW]		block44.properties
+[NEW]		sandstone.xcf
+
+	mcpatcher\ctm\sand\
+[EDIT]		1-16.png
+[EDIT]		sand.xcf
+
+	mcpacther\ctm\cobblestone_mossy\
+[EDIT]		block48.properties
+
+	mcpatcher\ctm\ice\
+[NEW]		1-16.png
+[NEW]		block79.properties
+
+	mcpatcher\ctm\ice_packed\
+[NEW]		1-16.png
+[New]		block174.properties
+
+#########################
+## 16.07.2018 ## V0.13 ##
+#########################
+[REMOVE] thumbs.db
+	blockstates\
+[NEW]	brown_mushroom.json
+[NEW]	wheat.json
+	
+	mcpatcher\cit\stacks\wheat
+[NEW]	wheat.xcf
+[NEW]	wheat_1-8.png
+[NEW]	wheat_1-8.properties
+[NEW]	wheat_9-16.png
+[NEW]	wheat_9-16.properties
+[NEW]	wheat_17-24.png
+[NEW]	wheat_17-24.properties
+[NEW]	wheat_25-32.png
+[NEW]	wheat_25-32.properties
+[NEW]	wheat_33-40.png
+[NEW]	wheat_33-40.properties
+[NEW]	wheat_41-48.png
+[NEW]	wheat_41-48.properties
+[NEW]	wheat_49-56.png
+[NEW]	wheat_49-56.properties
+[NEW]	wheat_57-64.png
+[NEW]	wheat_57-64.properties
+
+	mcpatcher\ctm\stone_slab
+[EDIT]	0.png
+[EDIT]	1.png
+[NEW]	1_1.png
+[EDIT]	2.png
+[EDIT]	1.properties
+
+	mcpatcher\sky\world0
+[NEW]	dawn.png
+[NEW]	day.png
+[NEW]	dusk.png
+[NEW]	night.png
+[NEW]	sky1.properties
+[NEW]	sky2.properties
+[NEW]	sky3.properties
+[NEW]	sky4.properties
+	
+	modls\wheat\
+[EDIT]	wheat_stage0.json
+[EDIT]	wheat_stage1.json
+[EDIT]	wheat_stage2.json
+[EDIT]	wheat_stage3.json
+[EDIT]	wheat_stage4.json
+[EDIT]	wheat_stage5.json
+[EDIT]	wheat_stage6.json
+[EDIT]	wheat_stage7.json
+	
+	textures\blocks\
+[EDIT]	glazed_terracotta_brown.png
+[EDIT]	glazed_terracotta_white.png
+[EDIT]	glazed_terracotta_light_blue.png
+[NEW]	glazed_terracotta_pink.png
+
+	textures\shadow\
+[NEW]	wheat_particle_1.png
+[NEW]	wheat_particle_2.png
+
+	textures\enviroment
+[NEW]	clouds.png
+[NEW]	moon.xcf
+[NEW]	moon_phases.png
+[NEW]	rain.png
+[NEW]	snow.png
+[NEW]	sun.png
+
+	textures\shadow\
+[EDIT]	sandstone_pillar_side.png
+[EDIT]	sandstone_pillar.png
+
+#########################
+## 19.08.2018 ## V0.14 ##
+#########################
+
+	mcpatcher\ctm\portal_nether
+[REMOVE]	0-49.png
+[EDIT]		block90.properties
+
+	mcpatcher\ctm\wood_birch\
+[NEW]		block17.properties
+[NEW]		0-1.png
+
+	mcpatcher\ctm\wood_dark_oak\
+[NEW]		block162.properties
+[NEW]		0-2.png
+
+	models\iems\
+[EDIT]		diamond_sword.json
+
+	textures\items\
+[EDIT]	diamond_sword.png
+[NEW]	diamond_axe.png
+[NEW]	gold_axe.png
+[NEW]	iron_axe.png
+[NEW]	stone_axe.png
+[NEW]	wood_axe.png
+[NEW]	blaze_powder.png
+[NEW]	blaze_rod.png
+[NEW]	cauldron.png
+[NEW]	ghast_tear.png
+[NEW]	ghast_tear.png.mcmeta
+[NEW]	magma_cream.png
+
+	textures\blocks\
+[EDIT]	log_birch.png
+[EDIT]	log_birch_top.png
+
+	textures\blocks\
+[NEW]	blaze_powder.png
+[NEW]	blaze_rot.png
+[NEW]	melon.png
+
+	models\block\grass\
+[EDIT]	grass_flower_1.json
+[EDIT]	grass_floweroverlay_red.json
+[EDIT]	grass_normal.json
+[EDIT]	grass_stone_1.json
+[EDIT]	grass_wood_2.json
+[NEW]	cauldron_empty.json
+
+	

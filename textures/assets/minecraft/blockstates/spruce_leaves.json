@@ -1,0 +1,56 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+	    "particle": "blocks/leaves_spruce",
+    "all": "blocks/leaves_spruce",
+    "extra": "blocks/better_leaves_spruce"
+	},
+    "variants": {
+        "normal": [
+		{ "model": "leaves_spruce/leaves_spruce1", "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce1", "y": 90 , "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce1", "y": 180, "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce1", "y": 270, "weight": 20 },
+		
+		{ "model": "leaves_spruce/leaves_spruce2", "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce2", "y": 90 , "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce2", "y": 180, "weight": 20 },
+		{ "model": "leaves_spruce/leaves_spruce2", "y": 270 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_1", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_1", "y": 90, "weight": 10  },
+		{ "model": "leaves_spruce/leaves_spruce_pine_1", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_1", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_2", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_2", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_2", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_2", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_3", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_3", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_3", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_3", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_4", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_5", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_5", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_5", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_5", "y": 270, "weight": 10 },
+		
+		{ "model": "leaves_spruce/leaves_spruce_pine_6", "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_6", "y": 90 , "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_6", "y": 180, "weight": 10 },
+		{ "model": "leaves_spruce/leaves_spruce_pine_6", "y": 270, "weight": 10 }
+				]
+		}
+}

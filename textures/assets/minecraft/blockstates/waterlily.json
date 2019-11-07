@@ -1,0 +1,51 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "variants": {
+        "normal": [
+            { "model": "waterlily/waterlily", 			"weight": 120 },
+            { "model": "waterlily/waterlily", "y": 90,  "weight": 120 },
+            { "model": "waterlily/waterlily", "y": 180, "weight": 120 },
+            { "model": "waterlily/waterlily", "y": 270, "weight": 120 },
+			
+			{ "model": "waterlily/waterlily_white", 		  "weight": 4 },
+            { "model": "waterlily/waterlily_white", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_white", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_white", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_pink", 			 "weight": 4 },
+            { "model": "waterlily/waterlily_pink", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_pink", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_pink", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_red", 		    "weight": 4 },
+            { "model": "waterlily/waterlily_red", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_red", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_red", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_yellow", 		   "weight": 3 },
+            { "model": "waterlily/waterlily_yellow", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_yellow", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_yellow", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_lightblue", 		  "weight": 4 },
+            { "model": "waterlily/waterlily_lightblue", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_lightblue", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_lightblue", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_blue", 			 "weight": 4 },
+            { "model": "waterlily/waterlily_blue", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_blue", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_blue", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_magenta", 			"weight": 4 },
+            { "model": "waterlily/waterlily_magenta", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_magenta", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_magenta", "y": 270, "weight": 4 },
+			
+			{ "model": "waterlily/waterlily_purple",		   "weight": 4 },
+            { "model": "waterlily/waterlily_purple", "y": 90,  "weight": 4 },
+            { "model": "waterlily/waterlily_purple", "y": 180, "weight": 4 },
+            { "model": "waterlily/waterlily_purple", "y": 270, "weight": 4 }
+        ]
+    }
+}

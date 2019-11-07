@@ -1,0 +1,21 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+	    "particle": "blocks/leaves_birch",
+    "all": "blocks/leaves_birch",
+    "extra": "recources/better_leaves_birch"
+	},
+    "variants": {
+        "normal": [
+		{ "model": "leaves_birch/better_leaves_birch1" },
+		{ "model": "leaves_birch/better_leaves_birch1", "y": 90  },
+		{ "model": "leaves_birch/better_leaves_birch1", "y": 180 },
+		{ "model": "leaves_birch/better_leaves_birch1", "y": 270 },
+		
+		{ "model": "leaves_birch/better_leaves_birch2" },
+		{ "model": "leaves_birch/better_leaves_birch2", "y": 90  },
+		{ "model": "leaves_birch/better_leaves_birch2", "y": 180 },
+		{ "model": "leaves_birch/better_leaves_birch2", "y": 270 }
+				]
+		}
+}

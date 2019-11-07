@@ -1,0 +1,21 @@
+{
+	"__comment": "Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "#wall",
+		"wall": "blocks/cobblestone"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Voxels",
+			"from": [ 6.5, -1, 6.5 ],
+			"to": [ 9.5, 15, 9.5 ],
+			"faces": {
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#wall", "cullface": "up" },
+				"north": { "uv": [ 6.5, 1, 9.5, 16 ], "texture": "#wall" },
+				"south": { "uv": [ 6.5, 1, 9.5, 16 ], "texture": "#wall" },
+				"west": { "uv": [ 6.5, 1, 9.5, 16 ], "texture": "#wall" },
+				"east": { "uv": [ 6.5, 1, 9.5, 16 ], "texture": "#wall" }
+			}
+		}
+	]
+}

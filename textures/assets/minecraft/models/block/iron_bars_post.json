@@ -1,0 +1,23 @@
+{
+	"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/iron_bars",
+		"bars": "blocks/iron_bars"
+	},
+	"elements": [
+		{
+			"__comment": "Box3",
+			"from": [ 6.5, 0, 6.5 ],
+			"to": [ 9.5, 16, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 8, 9, 10 ], "texture": "#bars" },
+				"up": { "uv": [ 7, 8, 9, 10 ], "texture": "#bars" },
+				"north": { "uv": [ 12, 0, 14, 16 ], "texture": "#bars" },
+				"south": { "uv": [ 7, 0, 9, 16 ], "texture": "#bars" },
+				"west": { "uv": [ 2, 0, 4, 16 ], "texture": "#bars" },
+				"east": { "uv": [ 12, 0, 14, 16 ], "texture": "#bars" }
+			}
+		}
+	]
+}

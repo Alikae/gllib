@@ -1,0 +1,26 @@
+{
+"__comment":"Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+    "variants": {
+        "normal": [
+            { "model": "sand/sand_normal", "weight": 800  },
+            { "model": "sand/sand_normal", "y": 90, "weight": 800  },
+            { "model": "sand/sand_normal", "y": 180, "weight": 800  },
+            { "model": "sand/sand_normal", "y": 270; "weight": 800  },
+			
+			{ "model": "sand/sand_sandy_0", "weight": 60 },
+            { "model": "sand/sand_sandy_0", "y": 90, "weight": 60 },
+            { "model": "sand/sand_sandy_0", "y": 180, "weight": 60 },
+            { "model": "sand/sand_sandy_0", "y": 270, "weight": 60 },
+			
+			{ "model": "sand/sand_sandy_1", "weight": 60 },
+            { "model": "sand/sand_sandy_1", "y": 90, "weight": 60 },
+            { "model": "sand/sand_sandy_1", "y": 180, "weight": 60 },
+            { "model": "sand/sand_sandy_1", "y": 270, "weight": 60 },
+			
+			{ "model": "sand/sand_sandy_2", "weight": 60 },
+            { "model": "sand/sand_sandy_2", "y": 90, "weight": 60 },
+            { "model": "sand/sand_sandy_2", "y": 180, "weight": 60 },
+            { "model": "sand/sand_sandy_2", "y": 270, "weight": 60 }
+        ]
+    }
+}

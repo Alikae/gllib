@@ -1,0 +1,44 @@
+{
+	"__comment": "Made by Shadow204, part of the 'Miri Quidi' resource pack|with Cubic Studio|All rights reserved.",
+	"textures": {
+		"particle": "blocks/grass_side",
+		"grass_top": "blocks/grass_top",
+		"grass_side_overlay": "blocks/grass_side_overlay",
+		"dirt": "blocks/dirt",
+		"flowers": "shadow/flower_overlay/flower_overlay_red"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "core",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "down" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "south" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "west" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#dirt", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "PlaneY6",
+			"from": [ 0, 16.0001, 0 ],
+			"to": [ 16, 16.0011, 16 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#flowers", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "grass_overlay",
+			"from": [ -0.05, 0, -0.05 ],
+			"to": [ 16.05, 16, 16.05 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_top", "cullface": "up", "tintindex": 0 },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "north", "tintindex": 0 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "south", "tintindex": 0 },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "west", "tintindex": 0 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#grass_side_overlay", "cullface": "east", "tintindex": 0 }
+			}
+		}
+	]
+}
